@@ -1,28 +1,26 @@
-package com.decagon.rewardyourteacher.services.servicesImpl;
+package com.osayijoy.rewardyourteacher.services.servicesImpl;
 
-import com.decagon.rewardyourteacher.dto.MessageDTO;
-import com.decagon.rewardyourteacher.dto.NotificationResponseDTO;
-import com.decagon.rewardyourteacher.entity.*;
-import com.decagon.rewardyourteacher.entity.User;
-import com.decagon.rewardyourteacher.enums.TransactionType;
-import com.decagon.rewardyourteacher.enums.UserRole;
-import com.decagon.rewardyourteacher.exceptions.CustomException;
-import com.decagon.rewardyourteacher.repository.NotificationRepository;
-import com.decagon.rewardyourteacher.repository.UserRepository;
-import com.decagon.rewardyourteacher.services.EmailService;
-import com.decagon.rewardyourteacher.services.NotificationService;
-import com.decagon.rewardyourteacher.utils.EmailDetails;
-import com.decagon.rewardyourteacher.utils.EpochTime;
+import com.osayijoy.rewardyourteacher.dto.MessageDTO;
+import com.osayijoy.rewardyourteacher.dto.NotificationResponseDTO;
+import com.osayijoy.rewardyourteacher.entity.Notification;
+import com.osayijoy.rewardyourteacher.entity.Transaction;
+import com.osayijoy.rewardyourteacher.entity.User;
+import com.osayijoy.rewardyourteacher.enums.TransactionType;
+import com.osayijoy.rewardyourteacher.enums.UserRole;
+import com.osayijoy.rewardyourteacher.exceptions.CustomException;
+import com.osayijoy.rewardyourteacher.repository.NotificationRepository;
+import com.osayijoy.rewardyourteacher.repository.UserRepository;
+import com.osayijoy.rewardyourteacher.services.EmailService;
+import com.osayijoy.rewardyourteacher.services.NotificationService;
+import com.osayijoy.rewardyourteacher.utils.EmailDetails;
+import com.osayijoy.rewardyourteacher.utils.EpochTime;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
-import com.decagon.rewardyourteacher.entity.Transaction;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
-import java.time.ZoneId;
-import java.time.ZonedDateTime;
 import java.util.ArrayList;
 import java.util.List;
 @RequiredArgsConstructor

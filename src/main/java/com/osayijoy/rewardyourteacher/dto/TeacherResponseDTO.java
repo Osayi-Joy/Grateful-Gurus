@@ -1,8 +1,8 @@
-package com.decagon.rewardyourteacher.dto;
+package com.osayijoy.rewardyourteacher.dto;
 
-import com.decagon.rewardyourteacher.entity.School;
-import com.decagon.rewardyourteacher.enums.Gender;
-import com.decagon.rewardyourteacher.enums.UserRole;
+import com.osayijoy.rewardyourteacher.entity.School;
+import com.osayijoy.rewardyourteacher.enums.Gender;
+import com.osayijoy.rewardyourteacher.enums.UserRole;
 import lombok.*;
 
 import java.time.LocalDateTime;

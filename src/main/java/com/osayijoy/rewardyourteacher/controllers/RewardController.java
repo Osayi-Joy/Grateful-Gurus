@@ -1,9 +1,9 @@
-package com.decagon.rewardyourteacher.controllers;
+package com.osayijoy.rewardyourteacher.controllers;
 
-import com.decagon.rewardyourteacher.dto.APIResponse;
-import com.decagon.rewardyourteacher.dto.PaymentResponse;
-import com.decagon.rewardyourteacher.dto.SenderTransferDto;
-import com.decagon.rewardyourteacher.services.RewardService;
+import com.osayijoy.rewardyourteacher.dto.APIResponse;
+import com.osayijoy.rewardyourteacher.dto.PaymentResponse;
+import com.osayijoy.rewardyourteacher.dto.SenderTransferDto;
+import com.osayijoy.rewardyourteacher.services.RewardService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;

@@ -1,6 +1,6 @@
-package com.decagon.rewardyourteacher.repository;
+package com.osayijoy.rewardyourteacher.repository;
 
-import com.decagon.rewardyourteacher.entity.Wallet;
+import com.osayijoy.rewardyourteacher.entity.Wallet;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

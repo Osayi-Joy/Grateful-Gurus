@@ -1,21 +1,23 @@
-package com.decagon.rewardyourteacher.services.servicesImpl;
+package com.osayijoy.rewardyourteacher.services.servicesImpl;
 
-import com.decagon.rewardyourteacher.config.security.AuthenticateService;
-import com.decagon.rewardyourteacher.config.security.JwtService;
-import com.decagon.rewardyourteacher.dto.*;
-import com.decagon.rewardyourteacher.entity.User;
-import com.decagon.rewardyourteacher.enums.UserRole;
-import com.decagon.rewardyourteacher.exceptions.CustomException;
-import com.decagon.rewardyourteacher.exceptions.UserNotFoundException;
-import com.decagon.rewardyourteacher.repository.UserRepository;
-import com.decagon.rewardyourteacher.services.StudentService;
-import com.decagon.rewardyourteacher.utils.EmailValidatorService;
-import com.decagon.rewardyourteacher.utils.MapStructMapper;
+
+import com.osayijoy.rewardyourteacher.config.security.AuthenticateService;
+import com.osayijoy.rewardyourteacher.config.security.JwtService;
+import com.osayijoy.rewardyourteacher.dto.*;
+import com.osayijoy.rewardyourteacher.entity.User;
+import com.osayijoy.rewardyourteacher.enums.UserRole;
+import com.osayijoy.rewardyourteacher.exceptions.CustomException;
+import com.osayijoy.rewardyourteacher.exceptions.UserNotFoundException;
+import com.osayijoy.rewardyourteacher.repository.UserRepository;
+import com.osayijoy.rewardyourteacher.services.StudentService;
+import com.osayijoy.rewardyourteacher.utils.EmailValidatorService;
+import com.osayijoy.rewardyourteacher.utils.MapStructMapper;
 import lombok.AllArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
+
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.TypedQuery;
@@ -25,8 +27,9 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
 import java.util.regex.Pattern;
-import static com.decagon.rewardyourteacher.enums.UserRole.STUDENT;
-import static com.decagon.rewardyourteacher.enums.UserRole.TEACHER;
+
+import static com.osayijoy.rewardyourteacher.enums.UserRole.STUDENT;
+import static com.osayijoy.rewardyourteacher.enums.UserRole.TEACHER;
 
 @Service
 @AllArgsConstructor
@@ -98,7 +101,7 @@ public class StudentImpl implements StudentService {
                     .lastName(socialLoginRequest.getLastName())
                     .password(passwordEncoder.encode(socialLoginRequest.getPassword()))
                     .email(socialLoginRequest.getEmail())
-                    .role(UserRole.STUDENT)
+                    .role(STUDENT)
                     .profilePicture(socialLoginRequest.getDisplayPicture())
                     .createdAt(LocalDateTime.now())
                     .build();
@@ -114,7 +117,7 @@ public class StudentImpl implements StudentService {
                 .lastName(socialLoginRequest.getLastName())
                 .email(socialLoginRequest.getEmail())
                 .token(token)
-                .role(UserRole.STUDENT)
+                .role(STUDENT)
                 .profilePicture(socialLoginRequest.getDisplayPicture())
                 .build();
     }

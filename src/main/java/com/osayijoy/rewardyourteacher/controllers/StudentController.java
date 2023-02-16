@@ -1,8 +1,8 @@
-package com.decagon.rewardyourteacher.controllers;
+package com.osayijoy.rewardyourteacher.controllers;
 
-import com.decagon.rewardyourteacher.dto.*;
-import com.decagon.rewardyourteacher.services.StudentService;
-import com.decagon.rewardyourteacher.utils.ErrorsMap;
+import com.osayijoy.rewardyourteacher.dto.*;
+import com.osayijoy.rewardyourteacher.services.StudentService;
+import com.osayijoy.rewardyourteacher.utils.ErrorsMap;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;
@@ -14,6 +14,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
+
 import javax.validation.Valid;
 import java.security.Principal;
 import java.util.List;

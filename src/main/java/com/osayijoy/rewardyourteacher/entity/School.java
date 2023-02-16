@@ -1,7 +1,6 @@
-package com.decagon.rewardyourteacher.entity;
+package com.osayijoy.rewardyourteacher.entity;
 
-import com.decagon.rewardyourteacher.enums.SchoolType;
-import com.fasterxml.jackson.annotation.JsonManagedReference;
+import com.osayijoy.rewardyourteacher.enums.SchoolType;
 import lombok.*;
 
 import javax.persistence.*;

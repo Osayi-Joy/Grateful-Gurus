@@ -1,10 +1,8 @@
-package com.decagon.rewardyourteacher.controllers;
+package com.osayijoy.rewardyourteacher.controllers;
 
-
-import com.decagon.rewardyourteacher.dto.APIResponse;
-import com.decagon.rewardyourteacher.dto.TransactionHistoryDTO;
-import com.decagon.rewardyourteacher.entity.Transaction;
-import com.decagon.rewardyourteacher.services.TransactionService;
+import com.osayijoy.rewardyourteacher.dto.APIResponse;
+import com.osayijoy.rewardyourteacher.dto.TransactionHistoryDTO;
+import com.osayijoy.rewardyourteacher.services.TransactionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

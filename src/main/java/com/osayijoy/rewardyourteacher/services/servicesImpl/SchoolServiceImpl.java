@@ -1,12 +1,13 @@
-package com.decagon.rewardyourteacher.services.servicesImpl;
+package com.osayijoy.rewardyourteacher.services.servicesImpl;
 
-import com.decagon.rewardyourteacher.dto.SchoolResponse;
-import com.decagon.rewardyourteacher.entity.School;
-import com.decagon.rewardyourteacher.repository.SchoolRepository;
-import com.decagon.rewardyourteacher.services.SchoolService;
+import com.osayijoy.rewardyourteacher.dto.SchoolResponse;
+import com.osayijoy.rewardyourteacher.entity.School;
+import com.osayijoy.rewardyourteacher.repository.SchoolRepository;
+import com.osayijoy.rewardyourteacher.services.SchoolService;
 import lombok.extern.slf4j.Slf4j;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
+
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.TypedQuery;
@@ -18,7 +19,7 @@ import java.util.stream.Collectors;
 @Service
 @Slf4j
 public class SchoolServiceImpl implements SchoolService {
-    private final SchoolRepository  schoolRepository;
+    private final SchoolRepository schoolRepository;
 
     @PersistenceContext
     EntityManager entityManager;

@@ -1,13 +1,15 @@
-package com.decagon.rewardyourteacher.controllers;
+package com.osayijoy.rewardyourteacher.controllers;
 
-import com.decagon.rewardyourteacher.dto.APIResponse;
-import com.decagon.rewardyourteacher.dto.SchoolResponse;
-import com.decagon.rewardyourteacher.services.SchoolService;
-
+import com.osayijoy.rewardyourteacher.dto.APIResponse;
+import com.osayijoy.rewardyourteacher.dto.SchoolResponse;
+import com.osayijoy.rewardyourteacher.services.SchoolService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 

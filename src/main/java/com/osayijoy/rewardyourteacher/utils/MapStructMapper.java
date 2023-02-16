@@ -1,8 +1,8 @@
-package com.decagon.rewardyourteacher.utils;
+package com.osayijoy.rewardyourteacher.utils;
 
-import com.decagon.rewardyourteacher.dto.*;
-import com.decagon.rewardyourteacher.entity.Wallet;
-import com.decagon.rewardyourteacher.entity.User;
+import com.osayijoy.rewardyourteacher.dto.*;
+import com.osayijoy.rewardyourteacher.entity.User;
+import com.osayijoy.rewardyourteacher.entity.Wallet;
 import org.mapstruct.BeanMapping;
 import org.mapstruct.Mapper;
 import org.mapstruct.MappingTarget;

@@ -1,23 +1,20 @@
-package com.decagon.rewardyourteacher.controllers;
+package com.osayijoy.rewardyourteacher.controllers;
 
-import com.decagon.rewardyourteacher.dto.APIResponse;
-import com.decagon.rewardyourteacher.dto.CurrentBalanceResponse;
-import com.decagon.rewardyourteacher.dto.WalletRequest;
-import com.decagon.rewardyourteacher.dto.WalletResponse;
-import com.decagon.rewardyourteacher.services.WalletService;
-import com.decagon.rewardyourteacher.utils.ErrorsMap;
+import com.osayijoy.rewardyourteacher.dto.APIResponse;
+import com.osayijoy.rewardyourteacher.dto.CurrentBalanceResponse;
+import com.osayijoy.rewardyourteacher.dto.WalletRequest;
+import com.osayijoy.rewardyourteacher.dto.WalletResponse;
+import com.osayijoy.rewardyourteacher.services.WalletService;
+import com.osayijoy.rewardyourteacher.utils.ErrorsMap;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.oauth2.common.exceptions.UserDeniedAuthorizationException;
 import org.springframework.validation.BindingResult;
-
-import org.springframework.validation.FieldError;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 import java.security.Principal;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 

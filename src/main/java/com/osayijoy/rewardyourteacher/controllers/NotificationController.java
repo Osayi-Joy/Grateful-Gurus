@@ -1,10 +1,8 @@
-package com.decagon.rewardyourteacher.controllers;
+package com.osayijoy.rewardyourteacher.controllers;
 
-
-import com.decagon.rewardyourteacher.dto.APIResponse;
-import com.decagon.rewardyourteacher.dto.NotificationResponseDTO;
-import com.decagon.rewardyourteacher.entity.Notification;
-import com.decagon.rewardyourteacher.services.NotificationService;
+import com.osayijoy.rewardyourteacher.dto.APIResponse;
+import com.osayijoy.rewardyourteacher.dto.NotificationResponseDTO;
+import com.osayijoy.rewardyourteacher.services.NotificationService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,22 +1,21 @@
-package com.decagon.rewardyourteacher.entity;
+package com.osayijoy.rewardyourteacher.entity;
 
-import com.decagon.rewardyourteacher.enums.Gender;
-import com.decagon.rewardyourteacher.enums.Status;
-import com.decagon.rewardyourteacher.enums.UserRole;
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
+import com.osayijoy.rewardyourteacher.enums.Gender;
+import com.osayijoy.rewardyourteacher.enums.Status;
+import com.osayijoy.rewardyourteacher.enums.UserRole;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-
-import javax.persistence.*;
-import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import lombok.experimental.SuperBuilder;
 import org.hibernate.annotations.CreationTimestamp;
 
+import javax.persistence.*;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.decagon.rewardyourteacher.enums;
+package com.osayijoy.rewardyourteacher.enums;
 
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 

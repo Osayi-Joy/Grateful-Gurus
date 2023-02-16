@@ -1,13 +1,13 @@
-package com.decagon.rewardyourteacher.services.servicesImpl;
+package com.osayijoy.rewardyourteacher.services.servicesImpl;
 
-import com.decagon.rewardyourteacher.dto.TransactionHistoryDTO;
-import com.decagon.rewardyourteacher.entity.Transaction;
-import com.decagon.rewardyourteacher.entity.User;
-import com.decagon.rewardyourteacher.enums.TransactionType;
-import com.decagon.rewardyourteacher.repository.TransactionRepository;
-import com.decagon.rewardyourteacher.repository.UserRepository;
-import com.decagon.rewardyourteacher.services.TransactionService;
-import com.decagon.rewardyourteacher.utils.EpochTime;
+import com.osayijoy.rewardyourteacher.dto.TransactionHistoryDTO;
+import com.osayijoy.rewardyourteacher.entity.Transaction;
+import com.osayijoy.rewardyourteacher.entity.User;
+import com.osayijoy.rewardyourteacher.enums.TransactionType;
+import com.osayijoy.rewardyourteacher.repository.TransactionRepository;
+import com.osayijoy.rewardyourteacher.repository.UserRepository;
+import com.osayijoy.rewardyourteacher.services.TransactionService;
+import com.osayijoy.rewardyourteacher.utils.EpochTime;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

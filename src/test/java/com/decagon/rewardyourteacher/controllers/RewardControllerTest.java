@@ -1,16 +1,10 @@
 package com.decagon.rewardyourteacher.controllers;
 
-import static org.hamcrest.Matchers.is;
-import static org.mockito.Mockito.any;
-import static org.mockito.Mockito.when;
-
-import com.decagon.rewardyourteacher.dto.PaymentResponse;
-import com.decagon.rewardyourteacher.dto.SenderTransferDto;
-import com.decagon.rewardyourteacher.services.RewardService;
 import com.fasterxml.jackson.databind.ObjectMapper;
-
-import java.math.BigDecimal;
-
+import com.osayijoy.rewardyourteacher.controllers.RewardController;
+import com.osayijoy.rewardyourteacher.dto.PaymentResponse;
+import com.osayijoy.rewardyourteacher.dto.SenderTransferDto;
+import com.osayijoy.rewardyourteacher.services.RewardService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,6 +16,12 @@ import org.springframework.test.web.servlet.request.MockHttpServletRequestBuilde
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
+
+import java.math.BigDecimal;
+
+import static org.hamcrest.Matchers.is;
+import static org.mockito.Mockito.any;
+import static org.mockito.Mockito.when;
 
 @ContextConfiguration(classes = {RewardController.class})
 @ExtendWith(SpringExtension.class)

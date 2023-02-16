@@ -1,7 +1,7 @@
-package com.decagon.rewardyourteacher.services;
+package com.osayijoy.rewardyourteacher.services;
 
-import com.decagon.rewardyourteacher.dto.*;
-import com.decagon.rewardyourteacher.entity.User;
+import com.osayijoy.rewardyourteacher.dto.*;
+import com.osayijoy.rewardyourteacher.entity.User;
 
 import java.util.List;
 

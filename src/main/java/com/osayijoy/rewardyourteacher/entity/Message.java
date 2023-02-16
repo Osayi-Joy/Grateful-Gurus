@@ -1,4 +1,4 @@
-package com.decagon.rewardyourteacher.entity;
+package com.osayijoy.rewardyourteacher.entity;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import lombok.AllArgsConstructor;

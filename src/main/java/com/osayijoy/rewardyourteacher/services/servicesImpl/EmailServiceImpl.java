@@ -1,7 +1,8 @@
-package com.decagon.rewardyourteacher.services.servicesImpl;
-import com.decagon.rewardyourteacher.dto.EmailResponse;
-import com.decagon.rewardyourteacher.services.EmailService;
-import com.decagon.rewardyourteacher.utils.EmailDetails;
+package com.osayijoy.rewardyourteacher.services.servicesImpl;
+
+import com.osayijoy.rewardyourteacher.dto.EmailResponse;
+import com.osayijoy.rewardyourteacher.services.EmailService;
+import com.osayijoy.rewardyourteacher.utils.EmailDetails;
 import lombok.RequiredArgsConstructor;
 import org.springframework.core.io.FileSystemResource;
 import org.springframework.mail.MailException;
@@ -9,6 +10,7 @@ import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.stereotype.Service;
+
 import javax.mail.MessagingException;
 import javax.mail.internet.MimeMessage;
 import java.io.File;

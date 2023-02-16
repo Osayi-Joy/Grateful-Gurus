@@ -1,31 +1,26 @@
-package com.decagon.rewardyourteacher.services.servicesImpl;
+package com.osayijoy.rewardyourteacher.services.servicesImpl;
 
-import com.decagon.rewardyourteacher.dto.PaymentResponse;
-import com.decagon.rewardyourteacher.dto.SenderTransferDto;
-import com.decagon.rewardyourteacher.dto.WalletRequest;
-import com.decagon.rewardyourteacher.entity.Notification;
-import com.decagon.rewardyourteacher.entity.Transaction;
-import com.decagon.rewardyourteacher.entity.User;
-import com.decagon.rewardyourteacher.entity.Wallet;
-import com.decagon.rewardyourteacher.enums.TransactionType;
-import com.decagon.rewardyourteacher.exceptions.CustomException;
-import com.decagon.rewardyourteacher.exceptions.UserNotFoundException;
-import com.decagon.rewardyourteacher.exceptions.WalletNotFoundException;
-import com.decagon.rewardyourteacher.repository.NotificationRepository;
-import com.decagon.rewardyourteacher.repository.UserRepository;
-import com.decagon.rewardyourteacher.repository.WalletRepository;
-import com.decagon.rewardyourteacher.services.RewardService;
-import com.decagon.rewardyourteacher.services.TransactionService;
-import com.decagon.rewardyourteacher.services.WalletService;
-import com.decagon.rewardyourteacher.utils.AuthDetails;
+import com.osayijoy.rewardyourteacher.dto.PaymentResponse;
+import com.osayijoy.rewardyourteacher.dto.SenderTransferDto;
+import com.osayijoy.rewardyourteacher.entity.User;
+import com.osayijoy.rewardyourteacher.entity.Wallet;
+import com.osayijoy.rewardyourteacher.enums.TransactionType;
+import com.osayijoy.rewardyourteacher.exceptions.CustomException;
+import com.osayijoy.rewardyourteacher.exceptions.WalletNotFoundException;
+import com.osayijoy.rewardyourteacher.exceptions.UserNotFoundException;
+import com.osayijoy.rewardyourteacher.repository.NotificationRepository;
+import com.osayijoy.rewardyourteacher.repository.UserRepository;
+import com.osayijoy.rewardyourteacher.repository.WalletRepository;
+import com.osayijoy.rewardyourteacher.services.RewardService;
+import com.osayijoy.rewardyourteacher.services.TransactionService;
+import com.osayijoy.rewardyourteacher.services.WalletService;
+import com.osayijoy.rewardyourteacher.utils.AuthDetails;
+import com.osayijoy.rewardyourteacher.entity.Notification;
 import lombok.RequiredArgsConstructor;
-import org.apache.commons.lang3.RandomStringUtils;
 import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
-import java.util.ArrayList;
-import java.util.List;
 
 @RequiredArgsConstructor
 @Service
@@ -40,7 +35,7 @@ public class RewardServiceImpl implements RewardService {
 
 
     @Override
-    public PaymentResponse rewardTeacher(Long receiverId, SenderTransferDto senderTransferDto) throws  WalletNotFoundException {
+    public PaymentResponse rewardTeacher(Long receiverId, SenderTransferDto senderTransferDto) throws WalletNotFoundException {
         User sender = authDetails.getAuthorizedUser();
         User receiver = userRepository.findById(receiverId).orElseThrow(UserNotFoundException::new);
         Wallet senderWallet = sender.getWallet();

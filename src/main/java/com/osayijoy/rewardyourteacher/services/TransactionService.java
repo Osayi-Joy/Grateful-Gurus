@@ -1,9 +1,10 @@
-package com.decagon.rewardyourteacher.services;
+package com.osayijoy.rewardyourteacher.services;
 
-import com.decagon.rewardyourteacher.dto.TransactionHistoryDTO;
-import com.decagon.rewardyourteacher.entity.Transaction;
-import com.decagon.rewardyourteacher.entity.User;
-import com.decagon.rewardyourteacher.enums.TransactionType;
+
+import com.osayijoy.rewardyourteacher.dto.TransactionHistoryDTO;
+import com.osayijoy.rewardyourteacher.entity.Transaction;
+import com.osayijoy.rewardyourteacher.entity.User;
+import com.osayijoy.rewardyourteacher.enums.TransactionType;
 
 import java.math.BigDecimal;
 import java.util.List;

@@ -1,14 +1,20 @@
-package com.decagon.rewardyourteacher.controllers;
+package com.osayijoy.rewardyourteacher.controllers;
 
-import com.decagon.rewardyourteacher.dto.*;
-import com.decagon.rewardyourteacher.services.PayStackService;
-import com.decagon.rewardyourteacher.utils.VerifyTransactionResponse;
+import com.osayijoy.rewardyourteacher.dto.APIResponse;
+import com.osayijoy.rewardyourteacher.dto.PayStackPaymentRequest;
+import com.osayijoy.rewardyourteacher.dto.PayStackResponse;
+import com.osayijoy.rewardyourteacher.dto.PaystackVerifyRequestDTO;
+import com.osayijoy.rewardyourteacher.services.PayStackService;
+import com.osayijoy.rewardyourteacher.utils.VerifyTransactionResponse;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.security.Principal;
 

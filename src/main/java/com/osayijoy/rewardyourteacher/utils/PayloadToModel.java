@@ -1,8 +1,7 @@
-package com.decagon.rewardyourteacher.utils;
+package com.osayijoy.rewardyourteacher.utils;
 
-import com.decagon.rewardyourteacher.dto.GoogleOauth2User;
-import com.decagon.rewardyourteacher.entity.User;
-
+import com.osayijoy.rewardyourteacher.dto.GoogleOauth2User;
+import com.osayijoy.rewardyourteacher.entity.User;
 
 public class PayloadToModel {
 

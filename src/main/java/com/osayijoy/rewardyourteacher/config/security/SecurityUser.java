@@ -1,4 +1,4 @@
-package com.decagon.rewardyourteacher.config.security;
+package com.osayijoy.rewardyourteacher.config.security;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

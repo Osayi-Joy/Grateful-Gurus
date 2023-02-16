@@ -1,4 +1,4 @@
-//package com.decagon.rewardyourteacher.controllers;
+package com.decagon.rewardyourteacher.controllers;//package com.decagon.rewardyourteacher.controllers;
 //
 //import static org.mockito.Mockito.any;
 //import static org.mockito.Mockito.when;

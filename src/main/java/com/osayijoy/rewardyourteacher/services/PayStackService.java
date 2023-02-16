@@ -1,8 +1,9 @@
-package com.decagon.rewardyourteacher.services;
+package com.osayijoy.rewardyourteacher.services;
 
-import com.decagon.rewardyourteacher.dto.PayStackPaymentRequest;
-import com.decagon.rewardyourteacher.dto.PayStackResponse;
-import com.decagon.rewardyourteacher.utils.VerifyTransactionResponse;
+
+import com.osayijoy.rewardyourteacher.dto.PayStackPaymentRequest;
+import com.osayijoy.rewardyourteacher.dto.PayStackResponse;
+import com.osayijoy.rewardyourteacher.utils.VerifyTransactionResponse;
 
 import java.io.IOException;
 import java.security.Principal;

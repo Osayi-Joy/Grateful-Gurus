@@ -1,4 +1,4 @@
-package com.decagon.rewardyourteacher.dto;
+package com.osayijoy.rewardyourteacher.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

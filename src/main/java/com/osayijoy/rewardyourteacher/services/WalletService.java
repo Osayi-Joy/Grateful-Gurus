@@ -1,11 +1,13 @@
-package com.decagon.rewardyourteacher.services;
+package com.osayijoy.rewardyourteacher.services;
 
-import com.decagon.rewardyourteacher.dto.CurrentBalanceResponse;
-import com.decagon.rewardyourteacher.dto.WalletRequest;
-import com.decagon.rewardyourteacher.dto.WalletResponse;
-import com.decagon.rewardyourteacher.entity.User;
-import com.decagon.rewardyourteacher.entity.Wallet;
-import com.decagon.rewardyourteacher.utils.VerifyTransactionResponse;
+
+import com.osayijoy.rewardyourteacher.dto.CurrentBalanceResponse;
+import com.osayijoy.rewardyourteacher.dto.WalletRequest;
+import com.osayijoy.rewardyourteacher.dto.WalletResponse;
+import com.osayijoy.rewardyourteacher.entity.User;
+import com.osayijoy.rewardyourteacher.entity.Wallet;
+import com.osayijoy.rewardyourteacher.utils.VerifyTransactionResponse;
+
 import java.util.List;
 
 public interface WalletService {

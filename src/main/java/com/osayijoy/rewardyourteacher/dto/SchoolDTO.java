@@ -1,6 +1,6 @@
-package com.decagon.rewardyourteacher.dto;
+package com.osayijoy.rewardyourteacher.dto;
 
-import com.decagon.rewardyourteacher.enums.SchoolType;
+import com.osayijoy.rewardyourteacher.enums.SchoolType;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

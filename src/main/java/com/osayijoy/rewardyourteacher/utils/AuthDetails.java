@@ -1,8 +1,8 @@
-package com.decagon.rewardyourteacher.utils;
+package com.osayijoy.rewardyourteacher.utils;
 
-import com.decagon.rewardyourteacher.entity.User;
-import com.decagon.rewardyourteacher.exceptions.UserNotFoundException;
-import com.decagon.rewardyourteacher.repository.UserRepository;
+import com.osayijoy.rewardyourteacher.exceptions.UserNotFoundException;
+import com.osayijoy.rewardyourteacher.repository.UserRepository;
+import com.osayijoy.rewardyourteacher.entity.User;
 import lombok.NoArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;

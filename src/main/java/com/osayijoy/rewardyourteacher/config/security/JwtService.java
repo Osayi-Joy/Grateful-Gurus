@@ -1,4 +1,4 @@
-package com.decagon.rewardyourteacher.config.security;
+package com.osayijoy.rewardyourteacher.config.security;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

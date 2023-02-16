@@ -1,11 +1,9 @@
-package com.decagon.rewardyourteacher.dto;
+package com.osayijoy.rewardyourteacher.dto;
 
-import com.decagon.rewardyourteacher.enums.Gender;
-import com.decagon.rewardyourteacher.enums.Status;
+import com.osayijoy.rewardyourteacher.enums.Gender;
+import com.osayijoy.rewardyourteacher.enums.Status;
 import lombok.*;
-import org.hibernate.annotations.CreationTimestamp;
 
-import javax.validation.constraints.Email;
 import javax.validation.constraints.Size;
 import java.time.LocalDateTime;
 

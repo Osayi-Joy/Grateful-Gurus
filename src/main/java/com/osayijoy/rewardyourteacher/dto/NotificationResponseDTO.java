@@ -1,7 +1,6 @@
-package com.decagon.rewardyourteacher.dto;
+package com.osayijoy.rewardyourteacher.dto;
 
-import com.decagon.rewardyourteacher.enums.TransactionType;
-import lombok.Builder;
+import com.osayijoy.rewardyourteacher.enums.TransactionType;
 import lombok.Getter;
 import lombok.Setter;
 

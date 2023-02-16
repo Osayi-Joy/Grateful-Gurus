@@ -1,4 +1,4 @@
-package com.decagon.rewardyourteacher.exceptions;
+package com.osayijoy.rewardyourteacher.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

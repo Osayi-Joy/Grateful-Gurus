@@ -1,17 +1,16 @@
-package com.decagon.rewardyourteacher.services.servicesImpl;
+package com.osayijoy.rewardyourteacher.services.servicesImpl;
 
-import com.decagon.rewardyourteacher.config.security.AuthenticateService;
-import com.decagon.rewardyourteacher.config.security.JwtService;
-import com.decagon.rewardyourteacher.dto.*;
-import com.decagon.rewardyourteacher.entity.Notification;
-import com.decagon.rewardyourteacher.entity.School;
-import com.decagon.rewardyourteacher.enums.UserRole;
-import com.decagon.rewardyourteacher.exceptions.CustomException;
-import com.decagon.rewardyourteacher.repository.SchoolRepository;
-import com.decagon.rewardyourteacher.entity.User;
-import com.decagon.rewardyourteacher.repository.UserRepository;
-import com.decagon.rewardyourteacher.services.TeacherService;
-import com.decagon.rewardyourteacher.utils.EmailValidatorService;
+import com.osayijoy.rewardyourteacher.config.security.AuthenticateService;
+import com.osayijoy.rewardyourteacher.config.security.JwtService;
+import com.osayijoy.rewardyourteacher.dto.*;
+import com.osayijoy.rewardyourteacher.entity.Notification;
+import com.osayijoy.rewardyourteacher.entity.School;
+import com.osayijoy.rewardyourteacher.entity.User;
+import com.osayijoy.rewardyourteacher.exceptions.CustomException;
+import com.osayijoy.rewardyourteacher.repository.SchoolRepository;
+import com.osayijoy.rewardyourteacher.repository.UserRepository;
+import com.osayijoy.rewardyourteacher.services.TeacherService;
+import com.osayijoy.rewardyourteacher.utils.EmailValidatorService;
 import lombok.AllArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -22,7 +21,8 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Objects;
 
-import static com.decagon.rewardyourteacher.enums.UserRole.TEACHER;
+import static com.osayijoy.rewardyourteacher.enums.UserRole.TEACHER;
+
 
 @AllArgsConstructor
 @Service

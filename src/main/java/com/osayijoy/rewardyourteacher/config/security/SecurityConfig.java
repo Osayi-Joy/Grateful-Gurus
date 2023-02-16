@@ -1,4 +1,4 @@
-package com.decagon.rewardyourteacher.config.security;
+package com.osayijoy.rewardyourteacher.config.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
@@ -22,9 +22,8 @@ import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import org.springframework.web.filter.CorsFilter;
+
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
 
 
 @Configuration

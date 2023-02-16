@@ -1,4 +1,4 @@
-package com.decagon.rewardyourteacher.utils;
+package com.osayijoy.rewardyourteacher.utils;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;

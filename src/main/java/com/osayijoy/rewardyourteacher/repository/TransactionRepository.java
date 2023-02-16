@@ -1,9 +1,8 @@
-package com.decagon.rewardyourteacher.repository;
+package com.osayijoy.rewardyourteacher.repository;
 
-import com.decagon.rewardyourteacher.entity.Transaction;
-import com.decagon.rewardyourteacher.entity.User;
+import com.osayijoy.rewardyourteacher.entity.Transaction;
+import com.osayijoy.rewardyourteacher.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
-
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 

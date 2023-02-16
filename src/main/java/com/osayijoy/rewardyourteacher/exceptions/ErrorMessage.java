@@ -1,4 +1,4 @@
-package com.decagon.rewardyourteacher.exceptions;
+package com.osayijoy.rewardyourteacher.exceptions;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

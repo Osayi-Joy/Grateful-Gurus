@@ -1,18 +1,16 @@
-package com.decagon.rewardyourteacher.services.servicesImpl;
+package com.osayijoy.rewardyourteacher.services.servicesImpl;
 
-import com.decagon.rewardyourteacher.dto.PayStackPaymentRequest;
-import com.decagon.rewardyourteacher.dto.PayStackResponse;
-import com.decagon.rewardyourteacher.entity.User;
-import com.decagon.rewardyourteacher.enums.TransactionType;
-import com.decagon.rewardyourteacher.exceptions.CustomException;
-import com.decagon.rewardyourteacher.services.EmailService;
-import com.decagon.rewardyourteacher.services.PayStackService;
-import com.decagon.rewardyourteacher.services.WalletService;
-import com.decagon.rewardyourteacher.utils.AuthDetails;
-import com.decagon.rewardyourteacher.utils.EmailDetails;
-import com.decagon.rewardyourteacher.utils.VerifyTransactionResponse;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.gson.Gson;
+import com.osayijoy.rewardyourteacher.dto.PayStackPaymentRequest;
+import com.osayijoy.rewardyourteacher.dto.PayStackResponse;
+import com.osayijoy.rewardyourteacher.exceptions.CustomException;
+import com.osayijoy.rewardyourteacher.services.EmailService;
+import com.osayijoy.rewardyourteacher.services.PayStackService;
+import com.osayijoy.rewardyourteacher.services.WalletService;
+import com.osayijoy.rewardyourteacher.utils.AuthDetails;
+import com.osayijoy.rewardyourteacher.utils.EmailDetails;
+import com.osayijoy.rewardyourteacher.utils.VerifyTransactionResponse;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 import org.apache.http.HttpResponse;
@@ -26,6 +24,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
+import com.osayijoy.rewardyourteacher.entity.User;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

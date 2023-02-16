@@ -1,12 +1,9 @@
-package com.decagon.rewardyourteacher.entity;
+package com.osayijoy.rewardyourteacher.entity;
 
-import com.decagon.rewardyourteacher.enums.TransactionType;
 import com.fasterxml.jackson.annotation.JsonBackReference;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-import lombok.Builder;
+import com.osayijoy.rewardyourteacher.enums.TransactionType;
+import lombok.*;
+
 import javax.persistence.*;
 import java.time.LocalDateTime;
 

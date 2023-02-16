@@ -1,4 +1,4 @@
-package com.decagon.rewardyourteacher.utils;
+package com.osayijoy.rewardyourteacher.utils;
 
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;

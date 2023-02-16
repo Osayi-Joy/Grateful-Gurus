@@ -1,11 +1,11 @@
-package com.decagon.rewardyourteacher.services;
+package com.osayijoy.rewardyourteacher.services;
 
 
-import com.decagon.rewardyourteacher.dto.MessageDTO;
-import com.decagon.rewardyourteacher.dto.NotificationResponseDTO;
-import com.decagon.rewardyourteacher.entity.Notification;
-import com.decagon.rewardyourteacher.entity.Transaction;
-import com.decagon.rewardyourteacher.entity.User;
+import com.osayijoy.rewardyourteacher.dto.MessageDTO;
+import com.osayijoy.rewardyourteacher.dto.NotificationResponseDTO;
+import com.osayijoy.rewardyourteacher.entity.Notification;
+import com.osayijoy.rewardyourteacher.entity.Transaction;
+import com.osayijoy.rewardyourteacher.entity.User;
 
 import java.util.List;
 

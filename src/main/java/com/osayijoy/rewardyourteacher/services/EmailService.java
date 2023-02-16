@@ -1,8 +1,7 @@
-package com.decagon.rewardyourteacher.services;
+package com.osayijoy.rewardyourteacher.services;
 
-
-import com.decagon.rewardyourteacher.dto.EmailResponse;
-import com.decagon.rewardyourteacher.utils.EmailDetails;
+import com.osayijoy.rewardyourteacher.dto.EmailResponse;
+import com.osayijoy.rewardyourteacher.utils.EmailDetails;
 
 public interface EmailService {
 

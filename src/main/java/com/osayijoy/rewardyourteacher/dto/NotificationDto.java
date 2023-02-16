@@ -1,6 +1,6 @@
-package com.decagon.rewardyourteacher.dto;
+package com.osayijoy.rewardyourteacher.dto;
 
-import com.decagon.rewardyourteacher.entity.Transaction;
+import com.osayijoy.rewardyourteacher.entity.Transaction;
 import lombok.Getter;
 import lombok.Setter;
 

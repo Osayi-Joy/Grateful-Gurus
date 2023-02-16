@@ -1,4 +1,4 @@
-package com.decagon.rewardyourteacher.config.security;
+package com.osayijoy.rewardyourteacher.config.security;
 
 import io.jsonwebtoken.ExpiredJwtException;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package com.decagon.rewardyourteacher.enums;
+package com.osayijoy.rewardyourteacher.enums;
 
 public enum Gender {
     MALE,

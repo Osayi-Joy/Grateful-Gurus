@@ -1,12 +1,12 @@
-package com.decagon.rewardyourteacher.services.servicesImpl;
-import com.decagon.rewardyourteacher.dto.StudentRequestDTO;
-import com.decagon.rewardyourteacher.dto.TeacherRequestDTO;
-import com.decagon.rewardyourteacher.dto.UserResponseDTO;
-import com.decagon.rewardyourteacher.entity.User;
-import com.decagon.rewardyourteacher.exceptions.CustomException;
-import com.decagon.rewardyourteacher.exceptions.UserNotFoundException;
-import com.decagon.rewardyourteacher.repository.UserRepository;
-import com.decagon.rewardyourteacher.utils.MapStructMapper;
+package com.osayijoy.rewardyourteacher.services.servicesImpl;
+
+import com.osayijoy.rewardyourteacher.dto.StudentRequestDTO;
+import com.osayijoy.rewardyourteacher.dto.TeacherRequestDTO;
+import com.osayijoy.rewardyourteacher.dto.UserResponseDTO;
+import com.osayijoy.rewardyourteacher.entity.User;
+import com.osayijoy.rewardyourteacher.exceptions.UserNotFoundException;
+import com.osayijoy.rewardyourteacher.repository.UserRepository;
+import com.osayijoy.rewardyourteacher.utils.MapStructMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

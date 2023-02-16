@@ -1,6 +1,7 @@
-package com.decagon.rewardyourteacher.repository;
-import com.decagon.rewardyourteacher.entity.Notification;
-import com.decagon.rewardyourteacher.entity.User;
+package com.osayijoy.rewardyourteacher.repository;
+
+import com.osayijoy.rewardyourteacher.entity.Notification;
+import com.osayijoy.rewardyourteacher.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 

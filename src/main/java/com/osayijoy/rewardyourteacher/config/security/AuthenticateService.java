@@ -1,11 +1,11 @@
-package com.decagon.rewardyourteacher.config.security;
+package com.osayijoy.rewardyourteacher.config.security;
 
-import com.decagon.rewardyourteacher.dto.LoginDTO;
-import com.decagon.rewardyourteacher.dto.LoginResponse;
-import com.decagon.rewardyourteacher.entity.User;
-import com.decagon.rewardyourteacher.enums.UserRole;
-import com.decagon.rewardyourteacher.exceptions.CustomException;
-import com.decagon.rewardyourteacher.repository.UserRepository;
+import com.osayijoy.rewardyourteacher.dto.LoginDTO;
+import com.osayijoy.rewardyourteacher.dto.LoginResponse;
+import com.osayijoy.rewardyourteacher.entity.User;
+import com.osayijoy.rewardyourteacher.enums.UserRole;
+import com.osayijoy.rewardyourteacher.exceptions.CustomException;
+import com.osayijoy.rewardyourteacher.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -15,10 +15,12 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
+
 import java.util.Collection;
 
-import static com.decagon.rewardyourteacher.enums.UserRole.STUDENT;
-import static com.decagon.rewardyourteacher.enums.UserRole.TEACHER;
+import static com.osayijoy.rewardyourteacher.enums.UserRole.STUDENT;
+import static com.osayijoy.rewardyourteacher.enums.UserRole.TEACHER;
+
 
 @Service
 public class AuthenticateService implements UserDetailsService {

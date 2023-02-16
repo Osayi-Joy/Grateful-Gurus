@@ -1,8 +1,9 @@
-package com.decagon.rewardyourteacher.services;
+package com.osayijoy.rewardyourteacher.services;
 
-import com.decagon.rewardyourteacher.dto.PaymentResponse;
-import com.decagon.rewardyourteacher.dto.SenderTransferDto;
-import com.decagon.rewardyourteacher.exceptions.WalletNotFoundException;
+
+import com.osayijoy.rewardyourteacher.dto.PaymentResponse;
+import com.osayijoy.rewardyourteacher.dto.SenderTransferDto;
+import com.osayijoy.rewardyourteacher.exceptions.WalletNotFoundException;
 
 public interface RewardService {
     PaymentResponse rewardTeacher(Long receiverId, SenderTransferDto senderTransferDto)
