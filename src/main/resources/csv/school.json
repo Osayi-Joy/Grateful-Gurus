@@ -1,0 +1,82 @@
+[
+  {
+
+    "name" : "British International School Lagos",
+    "schoolType" : "SECONDARY",
+    "address" : "1, Landbridge Avenue, Oniru Private Estate, Victoria Island, Lagos Nigeria",
+    "city" : "ikeja",
+    "state" : "Lagos"
+  },
+  {
+
+    "name" : "Brookstone Secondary School",
+    "schoolType" : "SECONDARY",
+    "address" : "International Airport Road, Igwuruta, Port Harcourt, Rivers Nigeria",
+    "city" : "Igwuruta",
+    "state" : "Port Harcourt"
+  },
+  {
+
+    "name" : "Effective International College",
+    "schoolType" : "SECONDARY",
+    "address" : "University of Ilorin Road, Tanke, Ilorin, Kwara Nigeria",
+    "city" : "Ilorin",
+    "state" : "Kwara Nigeria"
+  },
+  {
+
+    "name" : "Emmanuel International College",
+    "schoolType" : "SECONDARY",
+    "address" : "Opposite Government House Rayfield, Jos, Plateau Nigeria",
+    "city" : "Jos",
+    "state" : "Plateau"
+  },
+  {
+
+    "name" : "Federal Government College Enugu",
+    "schoolType" : "SECONDARY",
+    "address" : "Independence Layout, Enugu, Enugu Nigeria",
+    "city" : "Enugu",
+    "state" : "Enugu"
+  },
+  {
+
+    "name" : "GOF International College",
+    "schoolType" : "SECONDARY",
+    "address" : "Onward Estate Gbongan/Ibadan Road, Osogbo, Osun Nigeria",
+    "city" : "Osogbo",
+    "state" : "Osun"
+  },
+  {
+
+    "name" : "British International School Lagos",
+    "schoolType" : "SECONDARY",
+    "address": "ikeja,Lagos",
+    "city": "ikeja",
+    "state": "Lagos"
+  },
+  {
+
+    "name": "Homaj International Secondary School",
+    "schoolType" : "SECONDARY",
+    "address": "Itanla Akure Road, Akure, Ondo State Nigeria",
+    "city": "Akure",
+    "state": "Ondo"
+  },
+  {
+
+    "name": "King's College Lagos",
+    "schoolType" : "SECONDARY",
+    "address": "3 Catholic Mission, Lagos Island, Lagos Nigeria",
+    "city": "Lagos Island",
+    "state": "Lagos"
+  },
+  {
+
+    "name": "Pearlville School",
+    "schoolType" : "SECONDARY",
+    "address": "1 Pearlville Avenue Avu-Owerri, Owerri, Imo State Nigeria",
+    "city": "Owerri",
+    "state": "Imo"
+  }
+]
